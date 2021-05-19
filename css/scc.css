@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+
+html{
+    font-family: 'Dosis', sans-serif;
+    background-color: #15244d;
+    background: linear-gradient();
+}
+
+body {
+    background-color: #15244d
+
+}
+
+
+header a{
+    margin: auto 0;
+}
+
+
+.simple-item{
+    margin: auto;
+    margin-top: 3rem;
+    width: 30rem;
+    height: 30rem;
+}
+
+
+img{
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+	position: relative;
+	bottom: 0rem;
+    justify-content: center;
+    padding: 0.3125rem;
+    background-color: black;
+    color: #fff;
+}
+
