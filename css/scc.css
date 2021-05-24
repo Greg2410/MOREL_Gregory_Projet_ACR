@@ -6,10 +6,12 @@ html{
     font-family: 'Dosis', sans-serif;
     background-color: #15244d;
     background: linear-gradient();
+    
 }
 
 body {
-    background-color: #15244d
+    background-color: #15244d;
+    color: #fff;
 
 }
 
@@ -32,6 +34,31 @@ img{
     height: 30rem;
     text-align: center;
 }
+
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- .grid-item ---- */
+  
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+  
+  .grid-item {
+    border: 8px solid black;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+  
 
 footer {
     display: flex;

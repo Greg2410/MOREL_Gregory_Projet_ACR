@@ -25,6 +25,11 @@ function loadJson(){
  				Img.push(item);
 			});
 			RenderIMG();
+			json.article.forEach(function(item) {
+				console.log(item);
+				Art.push(item);
+			})
+			RenderArt();
 			$('.simple-item').slick({
 			   dots: true,
 			   infinite: true,
@@ -65,7 +70,15 @@ function RenderIMG(){
 
 function RenderArt(){
 	Art.forEach(item =>  {
-		// $("#art").append('<div><img id="'+item.titre+'" src="img/'+item.chemin+'" alt="img" /></div	>');
+		$("#art").append('<div class="grid-item"><h1>"'+item.titre+'"</h1> <img id="'+item.titre+'" src="img/'+item.image+'" alt="article" /> <p>"'+item.description+'"</p></div>');
+	});
+	// init Masonry
+	var grid = document.querySelector('.grid');
+	
+	var msnry = new Masonry( grid, {
+  		itemSelector: '.grid-item',
+  		columnWidth: '.grid-sizer',
+  		percentPosition: true
 	});
 }
 

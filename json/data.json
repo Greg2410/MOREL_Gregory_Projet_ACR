@@ -20,54 +20,64 @@
 
     "article": [
       {
-        "titre": "fifa",
+        "titre": "Fifa",
         "description": "FIFA Football est le nom générique d’une série de jeux vidéo de football édité à l’origine par Electronic Arts en 1993 et développé par la suite sous la forme d’une franchise.",
         "image": "fifa.png"
       },
       {
-        "titre": "halo",
+        "titre": "Halo",
         "description": "Halo est une série de jeux vidéo de science-fiction militaire créée par Bungie, reprise par 343 Industries et détenue par Microsoft Studios. La série se concentre sur une guerre interstellaire entre l'humanité et une alliance théocratique d'aliens, les Covenants.",
         "image": "halo.jpg"
       },
       {
-        "titre": "Outlast2",
+        "titre": "Outlast 2",
         "description": "Outlast 2 est un jeu vidéo indépendant avec une vue à la première personne de type survival horror développé et édité par Red Barrels. Il est sorti le 25 avril 2017 sur Microsoft Windows, PlayStation 4 et Xbox One, puis le 27 mars 2018 sur Nintendo Switch. C'est la suite directe d'Outlast.",
         "image": "Outlast2.jpg"
       },
       {
-        "titre": "Platine",
+        "titre": "Pokemon Platine",
         "description": "Pokémon version platine est un jeu vidéo complémentaire à Pokémon Diamant et Perle, appartenant à la série de jeux vidéo Pokémon. Le jeu est sorti au Japon le 13 septembre 2008, en Amérique du Nord le 22 mars 2009 et en Europe le 22 mai 2009.",
         "image": "platine.jpg"
       },
       {
-        "titre": "Skyrim",
+        "titre": "The Elder Scroll V Skyrim",
         "description": "The Elder Scrolls V: Skyrim est un jeu vidéo de rôle et d'action développé par Bethesda Game Studios et édité par Bethesda Softworks, sorti le 11 novembre 2011 sur PlayStation 3, Xbox 360 et Microsoft Windows.",
         "image": "skyrim.jpg"
       },
       {
-        "titre": "Ssbu",
+        "titre": "Super Smash Bros Ultimate",
         "description": "Super Smash Bros. Ultimate est un jeu vidéo de combat et de plates-formes développé par Sora Ltd. et Bandai Namco et édité par Nintendo. Il s'agit du cinquième épisode de la série Super Smash Bros.",
         "image": "ssbu.jpg"
       },
       {
-        "titre": "StreetFighter",
+        "titre": "Street Fighter V",
         "description": "Street Fighter V est un jeu vidéo de combat de la série Street Fighter développé et édité par Capcom, sorti le 16 février 2016 sur PlayStation 4 et Microsoft Windows.",
-        "image": "streetfighterv.jpg"
+        "image": "streetfigterv.jpg"
       },
       {
-        "titre": "SuperMario",
+        "titre": "Super Mario Bros",
         "description": "Super Mario Bros. est un jeu vidéo de plates-formes développé par Nintendo et sorti en 1985 sur Nintendo Entertainment System. Il s'agit du premier jeu de la série Super Mario.",
         "image": "SuperMarioBros.jpg"
       },
       {
-        "titre": "Village",
+        "titre": "Resident Evil 8 Village",
         "description": "Resident Evil Village, stylisé Resident Evil VII.I.age et connu au Japon sous le nom Biohazard Village, est un jeu vidéo de tir à la première personne type survival horror développé et édité par Capcom. Il est sorti le 7 mai 2021 sur Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series et Google Stadia.",
         "image": "village.jpg"
       },
       {
-        "titre": "Zelda",
+        "titre": "The Legend of Zelda: Ocarina of Time",
         "description": "The Legend of Zelda: Ocarina of Time, est un jeu vidéo d'action-aventure développé par Nintendo EAD et édité par Nintendo sur Nintendo 64. Il est sorti le 21 novembre 1998 au Japon, le 23 novembre 1998 en Amérique du Nord, puis le 11 décembre 1998 en Europe et en Australie.",
         "image": "Zelda.jpg"
+      },
+      {
+        "titre": "Dragon ball z Kakarot",
+        "description": "Dragon Ball Z: Kakarot est un jeu vidéo d'action-RPG édité par Bandai Namco Entertainment et développé par CyberConnect2, sorti le 17 janvier 2020 sur Windows, Xbox One et PlayStation 4.",
+        "image": "kakarot.png"
+      },
+      {
+        "titre": "Giants: Citizen Kabuto",
+        "description": "Giants: Citizen Kabuto est un jeu vidéo de Jeu de tir à la première personne ou tir à la troisième personne qui mélange plusieurs styles de gameplay. Le jeu est sorti le 6 décembre 2001 sur PC, il a été développé par Planet Moon Studios et fut édité par Interplay Entertainment.",
+        "image": "kabuto.jpg"
       }
     ],
 
