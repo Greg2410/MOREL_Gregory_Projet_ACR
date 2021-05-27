@@ -13,6 +13,8 @@
     <script src ="js/lib/jquery-3.6.0.min.js"></script>
     <script src ="js/script.js"></script>
     <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <!--Masonry-->
+    <script src ="js/lib/masonry.pkgd.min.js"></script>
     <!--Own CSS-->
     <link rel="stylesheet" href="css/scc.css"/>
     <!-- jQuery Modal -->
@@ -46,7 +48,22 @@
     </header>
 
    <main>
-        
+     <div class="grid"></div>
+     <div id="Contact"></div>
+      <div class="p-5" style="color: black"> 
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+          <label for="floatingInput">Email:</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" name="message" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Message:</label>
+        </div>
+        <button class="mt-3 btn btn-success" id="my-form-button" onClick="RenderContact()">Envoyer</button>
+        <img id="loading" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6e0b072897469.5bf6e79950d23.gif" alt="loading"/>
+        <br/>
+        <p id="reponse"></p>
+      </div>
     </main>
 
     <footer>

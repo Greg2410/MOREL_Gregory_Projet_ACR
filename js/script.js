@@ -1,11 +1,16 @@
 $(document).ready(
 function (){
+	if($("#loading").length){
+		$('#loading').hide();
+	}
 	
 })
 
 var Img = [];
 
 var Art = [];
+
+var Url = "";
 
 
 function loadJson(){
@@ -30,6 +35,10 @@ function loadJson(){
 				Art.push(item);
 			})
 			RenderArt();
+
+			Url = json.url;
+
+			setAction($("#my-form"));
 			$('.simple-item').slick({
 			   dots: true,
 			   infinite: true,
@@ -81,6 +90,41 @@ function RenderArt(){
   		percentPosition: true
 	});
 }
+
+function RenderContact(){
+	console.log(Url);
+
+	$('#loading').show();
+
+	$('#reponse').html("Envoie en cours");
+
+	$.ajax({
+		dataType: "json",
+
+		type: "POST",
+
+		data: { 
+			email: $("#floatingInput").val(), 
+			message: $("#floatingPassword").val() },
+
+		url: Url,
+		//success
+		success: function(json) {
+			$('#loading').hide();
+			$('#reponse').html('Félicitation, le mail a bien été envoyé !')
+		},
+		//erreur
+		error : function(result, statut, error) {
+			$('#loading').hide();
+			$('#reponse').html("Erreur lors de l'envoie du mail");
+			console.log(error);
+		  }
+	});
+}
+
+function setAction(form) {
+	form.action = Url;
+  }
 
 $(function(){
 	loadJson();
